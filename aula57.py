@@ -1,0 +1,16 @@
+""" 
+Lista de listas e seus índices
+"""
+
+salas = [
+    ['Maria', 'Helena', ], # 0
+    ['Elaine', ], # 1
+    ['Luiz', 'João', 'Eduarda', (0, 10, 20, 30, 40)], #2
+]
+
+# print(salas[2][3][2])
+
+for sala in salas:
+    for aluno in sala:
+        print(aluno)
+        
